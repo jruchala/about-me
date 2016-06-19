@@ -1,0 +1,112 @@
+@media only screen and (max-width: 500px) {
+  .masthead {
+    padding: 3em 0;
+  }
+  
+  .masthead-heading {
+    font-size: 3em;
+  }
+}
+
+
+body {
+  /* Typograpy Declarations */
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.masthead-intro {
+  margin-bottom: 0.1em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+}
+
+a {
+  color: #403A35;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #D6D2C9;
+}
+
+a:visited {
+  color: #D1A000;
+}
+
+.masthead-heading {
+  margin-top: -0.2em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  color: #FFCF33;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.masthead-heading,
+.masthead-intro,
+.content-footer {
+  text-align: center;
+}
+
+.masthead {
+  background-image: url('http://i.imgur.com/GIO1QzB.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: solid 1em #FFCF33;
+  padding: 6em 0;
+  background-position: center bottom;
+}
+
+.masthead-intro {
+  margin-bottom: 0.1em;
+}
+
+.masthead-heading {
+  margin-top: -0.2em;
+}
+
+.middle {
+  padding: 2em;
+}
+
+.introduction-section,
+.location-section,
+.questions-section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  background-color: #BEC0BF;
+}
+
+.introduction-section > p,
+.location-section > p,
+.content-footer > p {
+  /* Typography Declarations */
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+.questions-section > h2 {
+  /* Typography Declarations */
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.social > li {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.content-footer {
+  background-color: #6D7044;
+}
+
+.content-footer > p {
+  color: white;
+}
